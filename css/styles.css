@@ -1,0 +1,467 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+ 
+ font-family: "Inter", sans-serif;
+ font-size: 18px; /*Common Font across the prototype*/
+
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+header
+{
+    min-height: 72px;
+    /* background-color: #FFFFFF; Real Background Color */
+
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+}
+
+nav
+{
+    max-width:1200px;
+    /* background-color: red; Test-Color */
+    flex: 1;
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.links
+{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo
+{
+    font-weight:500;
+    color:#030213;
+    font-size:20px;
+}
+
+nav a
+{
+    font-weight: 400;
+    text-decoration: none;
+    color: #0A0A0ACC;
+    font-size:16px;
+
+    margin-right: 24px;
+}
+
+.get-started
+{
+    color:#FFFFFF !important;
+    background-color: #030213;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.center-content
+{
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+.hero
+{
+    /* background-color:greenyellow; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.hero-content
+{
+    width: 100%;
+    max-width: 528px;
+    min-height: 400px;
+}
+
+.hero-content-header
+{
+    line-height:48px !important;
+    font-size: 48px !important;
+    font-weight:500;
+}
+
+.hero-content p
+{
+    font-size:18px;
+}
+
+.hero-content .hero-buttons
+{
+
+    margin-top:40px; /*24 is what the prototype gave but it didn't look right*/
+
+    
+}
+
+.hero-buttons a
+{
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    
+    padding: 13px 33px;
+    border-radius: 10px;
+
+}
+
+.hero-buttons .hero-start-free-trial
+{
+    height: 50px;
+    width:172.98px;
+
+
+    color:#FFFFFF !important;
+    background-color: #030213;
+    margin-right:16px;
+}
+
+.hero-buttons .hero-view-demo
+{
+    height: 50px;
+    width: 149.69px;
+
+    border: 1px solid #0000001A;
+    color:#030213 !important;
+    background-color: #ECEEF2;  
+}
+
+
+.hero-image img
+{
+    width: 528px;
+    height: 352px;
+    border-radius: 16px;
+    /* background-color:aqua; */
+    overflow:hidden;
+}
+
+.why-wrapper
+{
+    background-color:#ECECF04D;
+}
+
+.why
+{
+    padding-top:80px;
+    padding-bottom: 80px;
+}
+
+.why-title
+{
+    font-size:36px;
+    font-weight:500;
+    text-align:center;
+}
+
+.why-description
+{
+    font-size:18px;
+    font-weight:400;
+    color:#0A0A0AB2;
+    text-align:center;
+}
+
+.why-cards
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+
+    margin-top:48px;
+    margin-right:32px;
+}
+
+.why-card
+{
+    width: 345px;
+    height:241px;
+    background-color:#FFFFFF;
+    border: 1px solid #0000001A;
+    border-radius: 14px;
+
+    display:flex;
+    flex-direction:column;
+    padding-left:33px;
+}
+
+.why-card-icon
+{
+    width:48px;
+    height:48px;
+    border-radius:10px;
+    padding:12px;
+
+    margin-top:33px;
+
+    background-color:#0302131A;
+}
+
+.why-card-title
+{
+    font-size: 18px;
+    font-weight:500;
+
+    margin-top:16px;
+}
+
+.why-card-description
+{
+    font-size:16px;
+    line-height:24ox;
+    color:#0A0A0AB2;
+
+    height:72px;
+    width: 280px;
+
+}
+
+.about
+{
+    padding-top:80px;
+    padding-bottom:80px;
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    justify-content:center;
+    gap:32px;
+}
+
+.about-hero-image
+{
+    max-height:396px;
+    min-height: 260px;
+    
+    width: 528px;
+    height: 396px;
+
+    min-width:345px;
+    max-width:528px;
+
+    border-radius:14px;
+    /* margin-right:48px; */
+
+    background-image: url(../images/images/images/about.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.about-content
+{
+    /* width:528px; */
+    min-width:320px;
+    min-height:400px;
+    flex:1;
+}
+
+.about-title
+{
+    color:#0A0A0A;
+    font-size:36px;
+    font-weight:500;
+    line-height:40px;
+    
+    margin-bottom:24px;
+}
+
+.about-description
+{
+    min-width:324px;
+    color:#0A0A0AB2;
+    font-weight:400;
+    line-height:28px;
+}
+
+
+footer
+{
+    min-height:314px;
+    width:100%;
+
+    background-color:#ECECF080;
+    flex-wrap:wrap;
+
+    padding-top:49px
+    /* padding-right: */
+}
+
+.footer-list
+{
+    display:flex;
+    gap:64px;
+}
+
+.footer-top
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin-bottom: 32px;
+
+    border-bottom:1px solid #0000001A;
+}
+
+.footer-title
+{
+    color:#0A0A0A;
+    font-weight:500;
+}
+
+.footer-top .footer-mission-statement
+{
+    color:#0A0A0AB2;
+    font-size:16px;
+    margin-top:16px;
+}
+
+
+.footer-social-media-logos
+{
+    display:flex;
+}
+
+.footer-top .footer-logo
+{
+    height:40px;
+    width:40px;
+    padding:9px;
+    background-color:#FFFFFF;
+
+    border-radius:10px;
+    border: 1px solid #0000001A;
+
+    margin-top:16px;
+    margin-right:16px;
+
+}
+
+.footer-product-list .footer-product-title,
+.footer-company-list .footer-company-title
+{
+    color:#0A0A0A;
+    font-size:16px;
+    font-weight:500;  
+}
+
+.footer-company-list p,
+.footer-product-list p
+{
+    color:#0A0A0AB2;
+    font-size:16px;
+    font-weight:400;
+}
+
+
+.copyright
+{
+    font-size:16px;
+    color:#0A0A0A99;
+
+    min-height:57px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+
+@media (max-width:1250px)
+{
+    nav,main, .footer-top, .copyright
+    {
+        padding:0 24px;
+    }
+}
+
+@media (max-width:680px)
+{
+    nav
+    {
+        flex-direction:column;
+        align-items: flex-start;
+        padding-top:24px;
+        padding-bottom:48px;
+        gap:16px;
+    }
+
+    .get-started-div
+    {
+        margin-right:auto;
+    }
+
+    .links
+    {
+        margin-left:auto;
+        margin-right:24px;
+        /* margin-left:-24px; */
+        /*Using the margin above somehow removed the padding for the left for everything*/
+    }
+
+    .why-cards
+    {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .hero
+    {
+        /* gap:24px; */
+        text-align:center;
+        justify-content:center;
+    }
+
+    .hero-buttons
+    {
+        display:flex;
+        flex-direction:column;
+        gap: 16px;
+        justify-content:center;
+        text-align:center;
+
+        width:345px;
+        height:50px;
+
+    }
+
+
+
+    .footer-top
+    {
+        padding-top:24px;
+        padding-bottom:24px;
+        gap:16px;
+    }
+
+
+}
+
+/* nav
+{
+    max-width:1200px;
+    /* background-color: red; Test-Color
+    flex: 1;
+
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+} */
