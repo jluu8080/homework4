@@ -9,5 +9,5 @@ Convert the Prototype from the Homewokr 3 into Sass via: <br>
  - Maintain the existing design and responsivness of the website <br>
 
 
-Github Link: <br>
-Web4 URL: 
+Github Link: https://github.com/jluu8080/homework4.git<br>
+Web4 URL: https://in-info-web4.luddy.indianapolis.iu.edu/~jasoluu/n215/homework4/
