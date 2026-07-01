@@ -1,0 +1,24 @@
+{
+  "name": "homework4",
+  "version": "1.0.0",
+  "description": "This is my readme file",
+  "homepage": "https://github.com/jluu8080/homework2#readme",
+  "bugs": {
+    "url": "https://github.com/jluu8080/homework2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jluu8080/homework2.git"
+  },
+  "license": "ISC",
+  "author": "Jason Luu",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.101.0"
+  }
+}

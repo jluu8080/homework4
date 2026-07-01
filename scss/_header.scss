@@ -1,0 +1,53 @@
+header
+{
+    min-height: 72px;
+    /* background-color: #FFFFFF; Real Background Color */
+
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+
+    nav
+    {
+        max-width:1200px;
+        /* background-color: red; Test-Color */
+        flex: 1;
+
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+
+        a
+        {
+            font-weight: 400;
+            text-decoration: none;
+            color: #0A0A0ACC;
+            font-size:16px;
+
+            margin-right: 24px;
+        }
+
+        .logo a
+        {
+            font-weight:500;
+            color:$dark;
+            font-size:20px;
+        }
+
+        .links
+        {
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+        }
+
+        .get-started
+        {
+            color:#FFFFFF !important;
+            background-color: $dark;
+            padding: 8px 24px;
+            border-radius: $small-radius;
+        }
+    }
+
+}

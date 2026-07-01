@@ -1,0 +1,89 @@
+@media (max-width:1250px)
+{
+    nav,main, .footer-top, .copyright
+    {
+        padding:0 24px;
+    }
+}
+
+@media (max-width:680px)
+{
+    nav
+    {
+        flex-direction:column;
+        align-items: flex-start;
+        padding-top:24px;
+        padding-bottom:48px;
+        gap:16px;
+    }
+
+    .get-started-div
+    {
+        margin-right:auto;
+    }
+
+    .links
+    {
+        margin-left:auto;
+        margin-right:24px;
+        /* margin-left:-24px; */
+        /*Using the margin above somehow removed the padding for the left for everything*/
+    }
+
+    .why-cards
+    {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .hero
+    {
+        /* gap:24px; */
+        text-align:center;
+        justify-content:center;
+    }
+
+    .hero-buttons
+    {
+        display:flex;
+        flex-direction:column;
+        gap: 16px;
+        justify-content:center;
+        text-align:center;
+
+        width:345px;
+        height:50px;
+
+    }
+
+
+
+    .footer-top
+    {
+        padding-top:24px;
+        padding-bottom:24px;
+        gap:16px;
+    }
+
+
+}
+
+@media (max-width: 768px)
+{
+    .clients .client-cards
+    {
+        grid-template-columns:1fr;
+    }
+
+    .client-page-desc
+    {
+        width: 100%;
+    }
+
+    nav
+    {
+        flex-wrap: wrap;
+        justify-content:center;
+        gap: 12px;
+    }
+}

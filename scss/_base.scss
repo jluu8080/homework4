@@ -1,0 +1,105 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, body {
+ height: 100%;
+ 
+ font-family: "Inter", sans-serif;
+ font-size: 18px; /*Common Font across the prototype*/
+
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+/*Embbeded Code and Fonts will go here*/
+
+
+.hero
+{
+    /* background-color:greenyellow; */
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    .hero-content
+    {
+        width: 100%;
+        max-width: 528px;
+        min-height: 400px;
+
+        .hero-content-header
+        {
+            line-height:48px !important;
+            font-size: 48px !important;
+            font-weight:500;
+        }
+
+        .hero-buttons
+        {
+            margin-top:40px; /*24 is what the prototype gave but it didn't look right*/
+
+            a
+            {
+                text-decoration:none;
+                font-size:18px;
+                font-weight:500;
+                
+                padding: 13px 33px;
+                border-radius: 10px;
+
+                white-space:nowrap;
+
+            }
+
+            .hero-start-free-trial
+            {
+                height: 50px;
+                width:172.98px;
+
+
+                color:#FFFFFF !important;
+                background-color: $dark;
+                margin-right:16px;
+            }
+
+            .hero-view-demo
+            {
+                height: 50px;
+                width: 149.69px;
+
+                border: 1px solid #0000001A;
+                color:$dark !important;
+                background-color: #ECEEF2;  
+            }
+        }
+
+        p
+        {
+            font-size:18px;
+        }
+    }
+
+    .hero-image img
+    {
+        width: 528px;
+        height: 352px;
+        border-radius: 16px;
+        /* background-color:aqua; */
+        overflow:hidden;
+    }
+
+
+}
+
+.center-content
+{
+    max-width:1200px;
+    margin: 0 auto;
+}

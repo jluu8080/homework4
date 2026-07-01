@@ -1,0 +1,81 @@
+
+.why-wrapper
+{
+    background-color:#ECECF04D;
+
+    .why
+    {
+        padding-top:80px;
+        padding-bottom: 80px;
+
+        .why-title
+        {
+            font-size:36px;
+            font-weight:500;
+            text-align:center;
+        }
+
+        .why-description
+        {
+            margin-top: 10px;
+            font-size:18px;
+            font-weight:400;
+            color:#0A0A0AB2;
+            text-align:center;
+        }
+
+        .why-cards
+        {
+            display:flex;
+            flex-wrap: wrap;
+            justify-content:space-between;
+
+            margin-top:48px;
+            margin-right:32px;
+            
+            .why-card
+            {
+                width: 345px;
+                height:241px;
+                background-color:#FFFFFF;
+                border: 1px solid #0000001A;
+                border-radius: 14px;
+
+                display:flex;
+                flex-direction:column;
+                padding-left:33px;
+
+                .why-card-icon
+                {
+                    width:48px;
+                    height:48px;
+                    border-radius:10px;
+                    padding:12px;
+
+                    margin-top:33px;
+
+                    background-color:#0302131A;
+                }
+
+                .why-card-title
+                {
+                    font-size: 18px;
+                    font-weight:500;
+
+                    margin-top:16px;
+                }
+
+                .why-card-description
+                {
+                    font-size:16px;
+                    line-height:24ox;
+                    color:#0A0A0AB2;
+
+                    height:72px;
+                    width: 280px;
+
+                }
+            }
+        }
+    }
+}

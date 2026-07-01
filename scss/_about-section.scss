@@ -1,0 +1,58 @@
+.about
+{
+    padding-top:80px;
+    padding-bottom:80px;
+
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row-reverse;
+    justify-content:center;
+    gap:32px;
+
+    .about-content
+    {
+        width: 100%;
+        min-width:320px;
+        min-height:399px;
+        max-width: 480px;
+
+        .about-title
+        {
+            color:#0A0A0A;
+            font-size:36px;
+            font-weight:500;
+            line-height:40px;
+            
+            margin-bottom:24px;
+        }
+
+        .about-description
+        {
+            min-width:324px;
+            color:#0A0A0AB2;
+            font-weight:400;
+            line-height:28px;
+        }
+    }
+
+    .about-hero-image
+    {
+        max-height:396px;
+        min-height: 260px;
+        
+        width: 528px;
+        height: 396px;
+
+        min-width:345px;
+        max-width:528px;
+
+        border-radius:14px;
+        /* margin-right:48px; */
+
+        background-image: url(../images/images/images/about.png);
+        background-position:center;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+
+}
